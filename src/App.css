@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.test-store {
+  display: flex;
+  gap: 10px;
+  max-width: 350px;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.list-elem {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid gray;
+  margin-bottom: -1px;
+  border-collapse: collapse;
+  width: 500px
+}
+
+button {
+  box-shadow: 2px 2px 3px gray;
+  padding: 5px;
+  margin: 5px;
+}
